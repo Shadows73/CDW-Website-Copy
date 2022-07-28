@@ -1,0 +1,175 @@
+body{
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    overflow: auto;
+}
+#rectangle{
+    width: 100%;
+    height: 3px;
+    background: rgb(255, 200, 100);
+}
+#yellow_exclaimation_mark{
+    height:25px;
+}
+#shipping_delays{
+    background-color: rgb(226, 225, 225);
+    padding: 10px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+#hover:hover{
+    cursor: pointer;
+}
+.underline{
+    text-decoration: underline;
+}
+#navbar {
+    display: flex;
+    justify-contenft: space-around;
+    align-items: center;
+    font-size: 12.7px;
+    padding-top: 10px;
+    box-shadow: 0px 15px 15px -20px gray;
+}
+.items{
+    color: rgb(94, 93, 93);
+}
+.items input[type=text] {
+    padding-top: 6px;
+    width: 140px;
+    margin-top: 0px;
+    font-size: 12.7px;
+    box-shadow: 0px 3.5px 0px 0px gray;
+}
+.items input[type=text]:active{
+    box-shadow: 0px 3.5px 0px 0px black;
+    color: black
+}
+.items input[type=text]:focus{
+    box-shadow: 0px 3.5px 0px 0px black;
+    color: black
+}
+.items:hover {
+    color: rgb(202, 59, 59);
+    cursor: pointer;
+}
+#logo {
+    width: 65px;
+}
+#notifications-button {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 80px;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    top: 1px;
+}
+#sign_in {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 80px;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    top: 1px;
+}
+#sysadmin_day{
+    display: flex;
+    max-width:100%;
+    position: relative;
+    color: white
+}
+#DandD1{
+    font-family: Times;
+    display:block;
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    font-size: 75px;
+}
+#DandD2{
+    font-family: Times;
+    display:block;
+    position: absolute;
+    top: 125px;
+    left: 15%;
+    font-size: 75px;
+}
+#DandD_Text{
+    text-align: start;
+    display:block;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    right: 50%;
+    font-size: 22.5px;
+    line-height: 30px;
+}
+#DandD_Claim{
+    display:block;
+    font-size: 19.9px;
+    background-color: white;
+    padding: 0px 15px;
+    position: absolute;
+    top: 395px;
+    left: 15%;
+}
+#part3{
+    margin: 87px;
+}
+#why{
+    text-decoration: none;
+    font-size: 40px;
+    transform: scale(0.92, 1);
+}
+#we{
+    font-size:20px;
+    color:rgb(20, 19, 19)
+}
+#cdw_images{
+    display:flex;
+    justify-content: space-evenly;
+}
+#cdw_reasons{
+    display:flex;
+    justify-content: space-evenly;
+    color:black;
+    font-size: 20px;
+    font-weight:bold;
+    transform: scale(0.92, 1);
+}
+.cdw_text{
+    margin:20px 30px;
+}
+.AccountCreation{
+    margin-top: 60px;
+    background-color: black;
+    transform: scale(0.92, 1);
+    font-weight: bold;
+    position:absolute;
+    padding: 0px 20px;
+    margin-left:770px;
+}
+#CreateAccount{
+    color:white;
+}
+
+
